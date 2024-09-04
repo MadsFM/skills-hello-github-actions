@@ -1,1 +1,1 @@
-name: Post welcome commenton:  pull_request:    types: [opened]permissions:  pull-requests: write
+name: Post welcome commenton:  pull_request:    types: [opened]permissions:  pull-requests: writejobs:  build:    name: Post welcome comment    runs-on: ubuntu-latest
